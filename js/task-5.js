@@ -10,7 +10,7 @@ const text = document.querySelector(".color");
 
 button.addEventListener("click", () => {
   const color = getRandomHexColor();
-  container.style.backgroundColor = color;
+  document.body.style.backgroundColor = color;
   text.textContent = color;
 });
 button.addEventListener("mouseenter", () => {
